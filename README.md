@@ -18,17 +18,23 @@ A modern Vue.js application for managing transactions, generating reports, and v
 
 ## Setup
 
-1. Install dependencies:
+1. Clone the repository:
+```bash
+git clone <https://github.com/IzDiego/forte-front-test>
+cd transaction-service
+```
+
+2. Install dependencies:
 ```bash
 npm install
 ```
 
-2. Create a `.env` file in the root directory with the following content:
+3. Create a `.env` file in the root directory with the following content:
 ```
 VITE_API_URL=http://localhost:3000/api
 ```
 
-3. Start the development server:
+4. Start the development server:
 ```bash
 npm run dev
 ```
